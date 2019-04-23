@@ -1,0 +1,25 @@
+{
+  "name": "hotp-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "hotp": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "speakeasy": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/xqin/hotp-cli.git"
+  }
+}
