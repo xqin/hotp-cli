@@ -8,8 +8,8 @@ process.argv.slice(2).forEach((args) => {
 })
 
 if (!('secret' in options)) {
-  console.log("need secret")
-  return
+  console.log('need secret')
+  process.exit(1)
 }
 
-console.log(require('speakeasy').totp(options))
+process.stdout.write(require('speakeasy').totp(options))
